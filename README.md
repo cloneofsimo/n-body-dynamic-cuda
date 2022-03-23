@@ -22,4 +22,4 @@ Run the software with good parameters.
 Paramters are `<video output path> <weight> <string tension> <drag>`, respectively.
 
 Example output:
-[](contents/x.avi)
+![](contents/x.avi)
