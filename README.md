@@ -19,7 +19,22 @@ Run the software with good parameters.
 ./main x.avi 0.0001 0.0001 0.01
 ```
 
-Paramters are `<video output path> <weight> <string tension> <drag>`, respectively.
+Paramters are `<video output path> <weight> <string tension> <drag> <n_body>`, respectively.
 
-Example output:
-![](contents/x.avi)
+# Example Dynamic's Output:
+
+N = 3
+
+![](contents/out3.gif)
+
+N = 5
+
+![](contents/out5.gif)
+
+N = 6
+
+![](contents/out6.gif)
+
+N = 16
+
+![](contents/out16.gif)
