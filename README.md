@@ -4,7 +4,7 @@ This is an attempt to simulate the following fascinating demonstration on youtub
 
 https://www.youtube.com/watch?v=C5Jkgvw-Z6E
 
-We make good use of shared memeory, memeory coelescing, unified memeory with CUDA programming model.
+We make good use of shared memory, memory coelescing, unified memory with CUDA programming model.
 The overall code is under 200 lines.
 
 Compile the project with
@@ -21,7 +21,19 @@ Run the software with good parameters.
 
 Paramters are `<video output path> <weight> <string tension> <drag> <n_body>`, respectively.
 
-# Example Dynamic's Output:
+# Final Dynamic Class Visualization
+
+Of course, this fractal nature is very interesting.
+
+![](contents/init_out2.png)
+
+![](contents/init_out3.png)
+
+![](contents/init_out4.png)
+
+![](contents/init_out5.png)
+
+# Example Dynamics Output
 
 N = 3
 

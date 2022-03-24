@@ -225,6 +225,10 @@ int main(int argc, char** argv)
         }
         oVideoWriter.write(frame);
 
+        if (t == 0) {
+            cv::imwrite((std::string)file_name + ".png", frame);
+        }
+
     }
 
     oVideoWriter.release();
